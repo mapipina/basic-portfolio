@@ -1,0 +1,38 @@
+h1 {
+	color: #fff;
+	background-color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+h2,
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+body {
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	width: 
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+footer {
+	background-color: #666666;
+}
+.about,
+.form,
+.portfolio {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	width: 650px;
+}
+
+.connect {
+	width: 270px;
+}

@@ -103,6 +103,8 @@ body {
 
 .connect img {
 	margin: 4px 2px 4px 2px;
+	width: 65px;
+	height: 65px;
 } 
 
 .icons {
@@ -173,4 +175,66 @@ textarea {
 .portfolio {
 	padding: 30px 30px 30px 30px;
 	border: 1px solid #cccccc;
+	margin-bottom: 10%;
+}
+
+#puppy-text {
+	position: absolute;
+	top: 41%;
+	left: 15.90%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+/*	padding-left: 65px;
+	padding-right: 65px; */
+	text-align: center;
+}
+
+#puppy-text-2 {
+	position: absolute;
+	top: 41%;
+	left: 27.82%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#puppy-text-3 {
+	position: absolute;
+	top: 63.50%;
+	left: 15.90%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#puppy-text-4 {
+	position: absolute;
+	top: 63.50%;
+	left: 27.75%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	/*height: 50px;*/
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+#puppy-text-5 {
+	position: absolute;
+	top: 87.80%;
+	left: 15.90%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }

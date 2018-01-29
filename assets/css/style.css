@@ -28,6 +28,10 @@ li a {
     border-right: 1px solid #cccccc;
 }
 
+li a:hover {
+	background-color: #4aaaa5;
+}
+
 li h1 {
 	color: #fff;
 	background-color: #4aaaa5;
@@ -55,21 +59,24 @@ h2 {
 }
 
 h3 {
+	padding-bottom: 10px;
 	border-bottom: 1px solid #cccccc;
+	text-align: center;
 }
 
 body {
 	color: #777777;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	background-image: url("../images/gaming-pattern.png");
-	width: 960px;
+/*	width: 960px; */
 }
 
 .main-content {
-/*	margin-top: 15%; */
-/*	margin-left: 10%; */
-	padding: 30px 10px 30px 10px;
- 	float: left; 
+	margin-top: 7%; 
+	margin-left: 10%; 
+	margin-right: 10%;
+	/*padding: 30px 10px 30px 10px;*/
+ 	overflow: auto; 
 }
 
 .about,
@@ -78,21 +85,29 @@ body {
 	background-color: #ffffff;
 	border-color: #dddddd;
 	width: 650px;
-	margin-top: 15%;
-	margin-left: 10%;
+	float: left;
+	margin-right: 10%;
+/*	margin-top: 15%;
+	margin-left: 10%; */
 }
 
 .connect {
 	background-color: #ffffff;
 	width: 270px;
-	margin-top: 10%;
+	/*margin-top: 10%; */
 	margin-left: 0;
+	float: left;
+	border: 1px solid #cccccc;
+	padding: 20px 20px 20px 20px;
 }
 
 .connect img {
+	margin: 4px 2px 4px 2px;
+} 
+
+.icons {
 	float: left;
-	max-width: 100px;
-	max-height: 100px;
+	margin-left: 10%;
 }
 
 footer {
@@ -113,6 +128,8 @@ footer {
 .about {
 	overflow: auto;
 	line-height: 150%;
+	border: 1px solid #cccccc;
+	padding: 20px;
 }
 
 p img {
@@ -121,5 +138,39 @@ p img {
 	margin-right: 10px;
 }
 
-/* index.html properties */
+/* 										index.html properties 											*/
 
+/* 												contact page 										*/
+.form {	
+	line-height: 250%;
+	border: 1px solid #cccccc;
+	padding: 30px;
+}
+
+input {
+	width: 60%;
+}
+
+textarea {
+	height: 100px;
+	width: 60%;
+}
+
+/* 											end contact page 											*/
+
+/*											portfolio page 									*/
+.boxes {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.boxes img {
+	height: 200px;
+	width: 200px;
+	margin: 2%;
+}
+
+.portfolio {
+	padding: 30px 30px 30px 30px;
+	border: 1px solid #cccccc;
+}
